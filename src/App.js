@@ -1,4 +1,5 @@
 import React from "react";
+import Clock from "./Clock";
 import "./styles.css";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>MK KAzi</h2>
+      <Clock />
     </div>
   );
 }
