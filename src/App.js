@@ -2,6 +2,8 @@ import React from "react";
 import Clock from "./Clock";
 import MemeGenerator from "./MemeGenerator";
 import Register from "./Register";
+import ContactForm from "./ContactForm";
+import Header from "./Header";
 import "./styles.css";
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
       <Clock />
       <MemeGenerator />
       <Register />
+      <Header />
+      <ContactForm />
     </div>
   );
 }
