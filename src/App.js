@@ -1,5 +1,6 @@
 import React from "react";
 import Clock from "./Clock";
+import MemeGenerator from "./MemeGenerator";
 import "./styles.css";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <h2>MK KAzi</h2>
       <Clock />
+      <MemeGenerator />
     </div>
   );
 }
